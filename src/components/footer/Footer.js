@@ -8,10 +8,9 @@ const Footer = () => {
         <h1>
           Javier <span className="ln"> Fuentes</span>
         </h1>
-        <p>Venezuela</p>
       </div>
       <div className="footer-contact">
-        <h3>Contact Me</h3>
+        <h3 className="contact">Contact Me</h3>
         <p>And let get dowm to work</p>
       </div>
       <div className="footer-sns">

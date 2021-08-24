@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from '@brainhubeu/react-carousel'
+import Carousel, { arrowsPlugin } from '@brainhubeu/react-carousel'
 import { slidesToShowPlugin } from '@brainhubeu/react-carousel'
 import { autoplayPlugin } from '@brainhubeu/react-carousel'
 import '@brainhubeu/react-carousel/lib/style.css'
@@ -34,6 +34,12 @@ const Slider = () => {
         offset={50}
         itemWidth={400}
         slides={Slides}
+        breakpoints={{
+          960: {
+            slidesPerPage: 1,
+            itemWidth: 250
+          }
+        }}
       />
     </div>
   )

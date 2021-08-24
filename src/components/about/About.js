@@ -7,10 +7,11 @@ const About = () => {
       <div className="about-desc">
         <h3>Let me tell you something about me</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-          expedita vero, sit cum dolor quidem amet nisi! Repellat voluptate esse
-          quaerat nostrum ad sapiente voluptas, natus quod. Aliquam, similique
-          exercitationem.
+          Innovative Front End Developer with experience building and
+          maintaining responsive websites in the recruiting industry. Proficient
+          in HTML, CSS, JavaScript and React; plus modern libraries and
+          frameworks. Passionate about usability and possess working knowledge
+          of Adobe XD & Figma.
         </p>
       </div>
       <div>
