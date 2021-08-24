@@ -9,13 +9,13 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     top: 0;
     background-color: black;
     width: 100%;
     height: 85px;
     font-size: 20px;
-    padding-left: 47%;
+    align-content: center;
     z-index: -1;
 }
 
