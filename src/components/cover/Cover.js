@@ -26,8 +26,8 @@ const Cover = () => {
           ]}
         />
       </p>
-      <div className="footer-sns">
-        <div className="sns-links">
+      <div className="cover-sns">
+        <div className="cover-links">
           <a
             href="https://www.linkedin.com/in/javier545dev/"
             target="_blank"

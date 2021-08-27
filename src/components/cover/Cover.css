@@ -26,7 +26,7 @@
     color: #DB00FF
 }
 
-.footer-sns {
+.cover-sns {
     width: 70%;
     bottom: 40px;
     margin: 0 auto;
@@ -34,7 +34,10 @@
     grid-template-columns: 2fr;
   }
 
-.sns-links {
+.cover-links {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     position: relative;
     bottom: -200px;
