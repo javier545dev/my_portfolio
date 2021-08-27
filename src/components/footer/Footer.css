@@ -1,43 +1,32 @@
 .footer {
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-color: black;
     color: white;
-    padding-top: 120px;
+    padding-top: 10px;
     bottom: 0;
     left: 0;
-    z-index: 0;
+    z-index: 1;
   }
   
   .footer-info {
-    font-size: 35px;
-    padding: 30px 0 30px 50px;
+    font-size: 25px;
+    padding: 20px 0 20px 20px;
     width: 70%;
     margin: 0 auto;
     text-align: center;
   }
   
   .footer-info > h1 {
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   
   .footer-contact {
     font-size: 22px;
-    padding: 50px 0 50px 50px;
+    padding: 20px 0 20px 20px;
     width: 70%;
     margin: 0 auto;
-  }
-  
-  .footer-sns {
-    width: 70%;
-    position: absolute;
-    bottom: 40px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
   }
 
   .footer-sns1 {
@@ -77,12 +66,12 @@
   
   .design-by {
     font-size: 22px;
-    padding-left: 50px;
+    padding-left: 20px;
     color: white;
   }
   
   .contact {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   
   @media only screen and (max-width: 960px) {

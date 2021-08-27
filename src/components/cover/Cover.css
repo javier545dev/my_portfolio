@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     object-fit: contain;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 0 0 1000px rgba(38, 1, 46, 0.563);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,8 +26,22 @@
     color: #DB00FF
 }
 
+.footer-sns {
+    width: 70%;
+    bottom: 40px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+
+.sns-links {
+    justify-items: center;
+    position: relative;
+    bottom: -200px;
+}
+
 .cover-container > p {
-    margin-top: 8px;
+    margin-top: 10px;
     color: white;
     font-size: 32px;
 }
