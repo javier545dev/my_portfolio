@@ -319,7 +319,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     position: relative;
-    bottom: -200px;
+    bottom: -150px;
 }
 
 .cover-container > p {
