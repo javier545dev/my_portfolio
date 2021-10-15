@@ -2,7 +2,6 @@ import React from 'react'
 import './Cover.css'
 import coverVideo from '../../media/coverVideo.mp4'
 import Typewriter from 'typewriter-effect'
-//import Typical from 'react-typical'
 
 const Cover = () => {
   return (
