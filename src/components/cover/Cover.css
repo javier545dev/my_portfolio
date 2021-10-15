@@ -26,7 +26,7 @@
   background: none;
   overflow: hidden;
   top: 0;
-  animation: noise-1 5s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+  animation: noise-1 4s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
 }
 
 .glitch::after, .glow::after {
@@ -37,7 +37,7 @@
   background: none;
   overflow: hidden;
   top: 0;
-  animation: noise-2 5s linear infinite alternate-reverse, glitch 5s 5s infinite;
+  animation: noise-2 4s linear infinite alternate-reverse, glitch 5s 5s infinite;
 }
 
 @keyframes glitch {

@@ -8,10 +8,10 @@ const Cover = () => {
     <div className="cover-container">
       <video className="video" src={coverVideo} autoPlay loop muted />
       <div>
-        <div className="glitch" data-text="JavierFuentes">
-          JavierFuentes
+        <div className="glitch" data-text="Javier/Fuentes">
+          Javier/Fuentes
         </div>
-        <div className="glow">JavierFuentes</div>
+        <div className="glow">Javier/Fuentes</div>
       </div>
 
       <p>
