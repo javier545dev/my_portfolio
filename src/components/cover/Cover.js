@@ -1,29 +1,30 @@
 import React from 'react'
 import './Cover.css'
 import coverVideo from '../../media/coverVideo.mp4'
-import Typical from 'react-typical'
+import Typewriter from 'typewriter-effect'
+//import Typical from 'react-typical'
 
 const Cover = () => {
   return (
     <div className="cover-container">
       <video className="video" src={coverVideo} autoPlay loop muted />
-      <h1>
-        Javier
-        <span className="ln"> Fuentes</span>
-      </h1>
+      <div>
+        <div className="glitch" data-text="JavierFuentes">
+          JavierFuentes
+        </div>
+        <div className="glow">JavierFuentes</div>
+      </div>
+
       <p>
         I am a
-        <Typical
-          loop={Infinity}
-          wrapper="b"
-          steps={[
-            ' <Developer/>',
-            2000,
-            ' <Designer/>',
-            2000,
-            ' <Musician/>',
-            2000
-          ]}
+        <Typewriter
+          options={{
+            strings: ['Developer', 'Designer', 'Creative'],
+            autoStart: true,
+            loop: true,
+            delay: 75,
+            deleteSpeed: 100
+          }}
         />
       </p>
       <div className="cover-sns">

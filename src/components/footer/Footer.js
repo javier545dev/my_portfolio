@@ -4,11 +4,6 @@ import './Footer.css'
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-info">
-        <h1>
-          Javier <span className="ln"> Fuentes</span>
-        </h1>
-      </div>
       <div className="footer-contact">
         <h3 className="contact">Contact Me</h3>
         <p>And let get dowm to work</p>
