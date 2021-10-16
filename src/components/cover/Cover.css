@@ -368,13 +368,13 @@
 
 @media screen and (min-width: 425px) {
   .glitch, .glow {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 }
 
 @media screen and (min-width: 720px) {
   .glitch, .glow {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .linkedin1,
   .twitter1,
