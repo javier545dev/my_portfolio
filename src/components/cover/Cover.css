@@ -12,9 +12,9 @@
 .glitch, .glow {
   font-family: "Oswald", sans-serif;
   font-style: italic;
-  color: #dfbfbf;
+  color: white;
   text-align: center;
-  font-size: 9vw;
+  font-size: 2.5rem;
   animation: glitch 5s 5s infinite;
 }
 
@@ -260,7 +260,7 @@
   }
 }
 .glow {
-  text-shadow: 0 0 1000px #dfbfbf;
+  text-shadow: 0 0 1000px white;
   color: transparent;
   position: absolute;
   top: 0;
@@ -301,10 +301,6 @@
     font-size: 100px;
 }
 
-.ln{
-    color: #DB00FF
-}
-
 .cover-sns {
     width: 70%;
     bottom: 40px;
@@ -319,7 +315,24 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     position: relative;
-    bottom: -150px;
+    padding-top: 8rem;
+}
+
+.linkedin1,
+.twitter1,
+.facebook1 {
+  color: white;
+  font-size: 35px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-bottom: 4px solid transparent;
+}
+
+.linkedin1:hover,
+.twitter1:hover,
+.facebook1:hover {
+  border-color: magenta;
+  transition: all 0.3s ease-out;
 }
 
 .cover-container > p {
@@ -328,15 +341,64 @@
     font-size: 32px;
 }
 
+.title {
+  padding-top: 9rem;
+}
+
 @media screen and (max-width: 960px) {
-    .cover-container > h1 {
-      font-size: 70px;
-      text-align: center;
-    }
-  
-    .cover-container > p {
-      text-align: center;
-      font-size: 22px;
-      width: 85%;
-    }
+  .cover-container > h1 {
+    font-size: 70px;
+    text-align: center;
   }
+  
+  .cover-container > p {
+    text-align: center;
+    font-size: 22px;
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 250px) {
+  .linkedin1,
+  .twitter1,
+  .facebook1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .glitch, .glow {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .glitch, .glow {
+    font-size: 4rem;
+  }
+  .linkedin1,
+  .twitter1,
+  .facebook1 {
+    font-size: 35px;
+  }
+  .cover-links {
+    padding-top: 6rem;
+  }
+  .title {
+    padding-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .glitch, .glow {
+    font-size: 6rem;
+  }
+  .linkedin1,
+  .twitter1,
+  .facebook1 {
+    font-size: 40px;
+  }
+  .cover-links {
+    padding-top: 5rem;
+  }
+}
