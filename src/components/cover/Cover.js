@@ -20,7 +20,7 @@ const Cover = () => {
         </div>
         <div className="glow">Fuentes</div>
       </div>
-      <p>
+      <div className="subtitle">
         I am a
         <Typewriter
           options={{
@@ -31,7 +31,7 @@ const Cover = () => {
             deleteSpeed: 100
           }}
         />
-      </p>
+      </div>
       <div className="cover-sns">
         <div className="cover-links">
           <a

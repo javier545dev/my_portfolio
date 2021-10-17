@@ -1,7 +1,6 @@
 import React from 'react'
-import Carousel, { arrowsPlugin } from '@brainhubeu/react-carousel'
-import { slidesToShowPlugin } from '@brainhubeu/react-carousel'
-import { autoplayPlugin } from '@brainhubeu/react-carousel'
+import Carousel from '@brainhubeu/react-carousel'
+import { slidesToShowPlugin, autoplayPlugin } from '@brainhubeu/react-carousel'
 import '@brainhubeu/react-carousel/lib/style.css'
 import './Slider.css'
 import Slides from './Slides'
@@ -26,11 +25,11 @@ const Slider = () => {
           {
             resolve: autoplayPlugin,
             options: {
-              interval: 2500
+              interval: 2000
             }
           }
         ]}
-        animationSpeed={1500}
+        animationSpeed={1000}
         offset={50}
         itemWidth={400}
         slides={Slides}
